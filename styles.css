@@ -183,3 +183,17 @@ dialog::backdrop{background:#061c2dd9;backdrop-filter:blur(4px)}
 .hero-price>strong{white-space:nowrap}
 .purchase-note,.checkout-note,.delivery-note,.optional-note{font-size:12px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+.mini-flash-interactive{width:177px;max-width:100%;padding:12px 11px 10px;transform:rotate(-4deg)}
+.benefit-flash .benefit-visual{height:auto;min-height:150px}
+.mini-flash-interactive .flashcard-content{min-height:80px}
+.mini-flash-interactive .flashcard-content small{font-size:8px;letter-spacing:.7px;line-height:1.5}
+.mini-flash-interactive .flashcard-content strong{font-size:14px;line-height:1.35;margin-top:7px}
+.mini-flash-interactive [data-flashcard-answer] strong{font-size:24px;line-height:1.1;margin-top:5px}
+.mini-flash-interactive [data-flashcard-answer] p{font-size:11px;line-height:1.5;margin-top:4px}
+.flip-button{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:44px;width:100%;padding:9px 0 0;margin-top:7px;border:0;border-top:1px solid #0924394d;background:transparent;color:var(--navy);font-size:12px;font-weight:800;line-height:1.4;text-align:left;cursor:pointer}
+.flip-button>span:last-child{font-size:21px;line-height:1}
+.flip-button:hover{color:#006573}
+.flip-button:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:2px}
+.mini-flash-interactive.is-flipped{background:#d1eeec}
+@media(max-width:359px){.mini-flash-interactive{padding-inline:8px}.mini-flash-interactive .flashcard-content strong{font-size:12px}.mini-flash-interactive .flashcard-content small{font-size:7px}.mini-flash-interactive [data-flashcard-answer] strong{font-size:22px}.mini-flash-interactive [data-flashcard-answer] p{font-size:10px}.flip-button{font-size:11px}}
